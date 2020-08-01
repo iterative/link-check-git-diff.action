@@ -3,7 +3,7 @@ description: "Check that all new links compared to master respond properly"
 inputs:
   rootURL:
     description: "The URL that root-relative links will have prepended to them"
-  exclusionsFile:
+  exclusionFile:
     description: >-
       The path to a file in the repo that contains lines used to match and
       exclude links from the link check. Uses micromatch.
